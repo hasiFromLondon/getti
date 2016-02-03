@@ -4,16 +4,6 @@
 #include <chrono>
 #include <thread>
 
-struct ICallback
-
-{
-
-virtual void BinaryPacket(const char* data, unsigned int size) = 0;
-
-virtual void TextPacket(const char* data, unsigned int size) = 0;
-
-};
-
 
 int main()
 {
